@@ -1,0 +1,13 @@
+p.text {
+	float: left;
+	width: 30%;
+}
+
+div.imagen {
+	float: right;
+	width: 80%;
+}
+img.responsive {
+	max-width: 100%;
+	height: auto;
+}
