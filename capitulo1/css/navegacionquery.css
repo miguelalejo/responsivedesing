@@ -1,0 +1,45 @@
+@media screen and (max-width: 800px) {
+	.small-menu {
+		display: inline;
+	}
+	.large-menu {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+	.small-menu {
+		display: none;
+	}
+	.large-menu {
+		display: inline;
+		width: 100%;
+	}
+	.large-menu ul {
+		list-style-type: none;
+	}
+
+	.large-menu ul li {
+		display: inline;
+	}
+	.content {
+		width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 1025px) {
+	.small-menu {
+		display: none;
+	}
+	.large-menu {
+		display: inline;
+		float: left;
+		width: 20%;
+	}
+	.content {
+		float: right;
+		width: 80%;
+	}
+}
+
