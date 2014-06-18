@@ -1,0 +1,42 @@
+input[type="submit"] {
+	color: white;
+	padding: 5px;
+	width: 68px;
+	height: 28px;
+	border-radius: 5px;
+	border: 1px;
+	font-weight: bold;
+	border: 1px groove #7A7A7A;
+	background: -moz-linear-gradient(
+	top,#0F97FF 0%, #97D2FF 8%,#0076D1 62%,#0076D1 63%,#005494 100%);
+	background: -webkit-gradient(linear, left top, left bottom,
+	color-stop(0%,#0F97FF), color-stop(8%,#97D2FF),color-stop(50%,#0076D1),
+	color-stop(51%,#0076D1), color-stop(100%,#005494));
+	background: -webkit-linear-gradient(top, #0F97FF 0%,#97D2FF
+	8%,#0076D1 62%,#0076D1 63%,#005494 100%);
+	background: -o-linear-gradient(top, #0F97FF 0%,#97D2FF 8%,#0076D1
+	62%,#0076D1 63%,#005494 100%);
+	background: -ms-linear-gradient(top, #0F97FF 0%,#97D2FF
+	8%,#0076D1 62%,#0076D1 63%,#005494 100%);
+	background: linear-gradient(to bottom, #0F97FF
+	0%,#97D2FF 8%,#0076D1 62%,#0076D1 63%,#005494 100%);
+	filter: DXImageTransform .Microsoft.gradient(
+	startColorstr: '#0f97ff', endColorstr :'#005494',
+	GradientType: 0 );
+}
+
+input[type="submit"]:hover {
+	border: 2px groove #7A7A7A;
+}
+
+input[type="submit"].partial-fade {
+	border-top: 1px solid #CFF !important;
+	border-right: 1px solid #CCF !important;
+	border-left: 1px solid #CCF !important;
+	border-bottom: 1px solid #6CF !important;
+	-webkit-box-shadow: 0 08px 0px #0F97FF, inset 0 0 20px rgba(37,
+	141, 220, 1);
+	-moz-box-shadow: 0 0 8px 0px #0F97FF, inset 0 0 20px rgba(37,141,220,1);
+	box-shadow: 0 0 8px 0px #0F97FF, inset 0 0 20px rgba(37, 141,
+	220, 1);
+}
