@@ -1,0 +1,21 @@
+p.text{
+	float:left;
+	width: 60%;
+}
+div.img-wrap{
+	float: right;
+	margin: 0px;
+	width: 38%;
+}
+
+img.responsive{
+	max-width: 100%;
+	height: auto;
+/*2x(maring+border+padding)+content=total width*/
+	 /*padding: 8px;*/
+/*2x(0+0+8px)+200px=216*/
+/*Porcentaje= 8/216 =0.037*/
+/**/
+	padding: 4%;
+	
+}
